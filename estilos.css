@@ -1,0 +1,90 @@
+
+.bg{
+    display: block;
+    min-height: 100vh;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+    align-items: center;
+    justify-content: center;
+    background-image: url("imagen3.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:cover; 
+}
+
+.demas{
+    display: block;
+    min-height: 100vh;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+    align-items: center;
+    justify-content: center;
+    background-image: url("imagen7.jpeg"); 
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:cover; 
+}
+
+h1,h3,h4, .grupos{
+    background-color: rgba(180, 139, 139, 0.76);
+    opacity:0.9;
+    border-radius: 1em;
+}
+
+h1{
+    color: rgb(0,0,0);
+    text-shadow: 2px 2px rgb(192,16,16);
+    border-radius: 1em;
+}
+
+.categorias{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    background-color: rgb(169, 212, 48);
+    opacity: 0.7;
+    font-size: 1.3em;
+    border-radius: 1em;
+}
+
+footer{
+    text-align: center;
+    font-size: 1em;
+}
+
+.reglas{
+    display: block;
+    width:100%;
+    height: 100%;
+    background-color: rgb(180, 139, 139);
+    align-items: center;
+    justify-content: center;
+    opacity: 0,8;
+    border-radius: 1em;
+    font-size: 1em;
+}
+
+.grupos{
+    margin: 0 auto;
+    text-align: center;
+    align-content:center;
+    border: 1px solid;
+    border-radius: 1em;
+    padding: 1em;
+    border-color: rgb(0, 0, 0);
+    width: fit-content;
+}
+th{
+    border: 1px solid;
+    border-color: black;
+    /*border-bottom: 1px solid rgb(0,0,0);*/
+}
+
+
+@media screen and (min-width: 600px){
+    body{
+        background-image: url("imagen1.jpg");
+    }
+    .categorias{
+        flex-direction: row;
+    }
+}
