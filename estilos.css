@@ -75,15 +75,19 @@ footer{
 }
 
 th{
-    border: 1px solid;
+    border: 2px solid;
     border-color: black;
-    /*border-bottom: 1px solid rgb(0,0,0);*/
+    text-align: center;
 }
 
 td{
     border-bottom: 1px solid rgb(0,0,0);
+    text-align: center;
 }
 
+.Grupo1, .Grupo2, .Grupo3, .Grupo4, .Grupo5, .diagrama{
+    font-weight: bold;
+}
 
 @media screen and (min-width: 600px){
     body{
